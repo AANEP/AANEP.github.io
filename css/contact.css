@@ -1,0 +1,58 @@
+#contact {
+    background-color: #f00340;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.message {
+    font-size: 20px;
+    margin: 3ex;
+    padding: 3ex;
+    width: 70%;
+    background-color: #F9F9F9;
+    text-align: center;
+    border-radius: 1ex;
+}
+
+.message1 {
+    text-align: center;
+    padding-bottom: 2ex;
+    font-size: 30px;
+}
+
+.presentation {
+    display: flex;
+    height: 300px;
+}
+
+#b1 {
+    background-color: #F1F1F1;
+}
+
+#b2 {
+    background-color: #BADDE0;
+}
+
+.gauche {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.droite {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3ex;
+    padding-bottom: 5ex;
+}

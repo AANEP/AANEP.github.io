@@ -1,0 +1,257 @@
+#bonsPlans {
+    background-color: #f00340;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.categories-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 10ex 0 10ex 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5ex;
+    width: 85%;
+    background-color: #f9f9f9;
+    border-radius: 1ex;
+}
+
+#cat {
+    margin: 3ex;
+    width: 25%;
+    position: relative;
+    border-radius: 2ex;
+}
+
+#cat img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+}
+
+#cat a {
+    text-decoration: none;
+}
+
+#cat .txt {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #f00340;
+    padding: 2ex;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #153142;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 5ex;
+}
+
+div#desc {
+    font-size: xx-large;
+    /* background-color: transparent; */
+}
+
+#cat:hover .overlay {
+    width: 100%;
+    height: 70%;
+}
+
+th,
+td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr {
+    align-items: center;
+    display: flex;
+    font: 2rem serif;
+    text-align: center;
+    color: white;
+    background-color: #153142;
+    padding: 1.5ex 3ex 1.5ex 3ex;
+}
+
+table {
+    /* border: #153142 solid 1px; */
+    background-color: #6d6e716b;
+}
+
+.liste table {
+    padding: 3ex;
+    background-color: white;
+    margin: 2ex 0 2ex 0;
+}
+
+#desc {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F9F9;
+    padding-bottom: 5ex;
+}
+
+#nourriture,
+#santé,
+#magasins,
+#loisirs,
+#logements,
+#transports {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10ex;
+    padding-right: 10ex;
+}
+
+.slider {
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.slides {
+    width: 1200px;
+    animation: autoslide 10s infinite;
+    animation-direction: inherit;
+}
+
+.slide {
+    float: left;
+}
+
+.liste,
+.slider {
+    margin: 100px;
+}
+
+@keyframes autoslide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-300px);
+    }
+    50% {
+        transform: translateX(-600px);
+    }
+    75% {
+        transform: translateX(-900px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slider2 {
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.slides2 {
+    width: 600px;
+    animation: autoslide2 10s infinite;
+    animation-direction: inherit;
+}
+
+.slide2 {
+    float: left;
+}
+
+.s,
+.slider2 {
+    margin: 100px;
+}
+
+@keyframes autoslide2 {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slider3 {
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.slides3 {
+    width: 900px;
+    animation: autoslide3 10s infinite;
+    animation-direction: inherit;
+}
+
+.slide3 {
+    float: left;
+}
+
+.m,
+.slider3 {
+    margin: 100px;
+}
+
+.info-icon {
+    padding: 0;
+}
+
+@keyframes autoslide3 {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-300px);
+    }
+    66% {
+        transform: translateX(-600px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.fa-info {
+    background: #ffffff;
+    color: #f00340;
+}

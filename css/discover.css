@@ -1,0 +1,157 @@
+#decouvrir {
+    background-color: #f00340;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5ex;
+    background-color: transparent;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* ______________________________________________ */
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.message {
+    font-size: 20px;
+    margin: 3ex;
+    padding: 3ex;
+    width: 70%;
+    background-color: #F9F9F9;
+    text-align: center;
+    border-radius: 1ex;
+}
+
+.message1 {
+    text-align: center;
+    padding-bottom: 2ex;
+    font-size: 30px;
+}
+
+
+/* _____________________Menu_______________________ */
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2ex;
+}
+
+.menu-title {
+    padding: 1.5ex;
+    font-size: 16px;
+    color: white;
+    background-color: #f00340;
+    text-align: center;
+}
+
+.menu-section button {
+    border: none;
+    background-color: #F9F9F9;
+    padding: 1.5ex;
+    font-size: 16px;
+}
+
+.menu-section button:hover {
+    cursor: pointer;
+}
+
+
+/* ______________________________________________ */
+
+.sites-containter {
+    display: flex;
+    height: 100%;
+    background-color: transparent;
+}
+
+
+/* _______________________Links_______________________ */
+
+.section {
+    display: none;
+}
+
+.section-title {
+    padding: 2ex;
+    background-color: #153142;
+    color: white;
+}
+
+.section-content {
+    border-bottom: solid #6d6e71 0.5px;
+}
+
+.section-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+}
+
+.address {
+    height: max-content;
+    bottom: 0;
+}
+
+.address button {
+    border: none;
+    background-color: #F9F9F9;
+    padding: 1.5ex;
+    font-size: 16px;
+}
+
+.address button:hover {
+    cursor: pointer;
+}
+
+.info-icon {
+    padding: 0;
+}
+
+.fa-info {
+    background: #ffffff;
+    color: #f00340;
+}
+
+
+/* _______________________Maps_______________________ */
+
+.map-container {
+    padding: 2ex;
+    border-radius: 0.5ex;
+}
+
+.map-txt {
+    text-align: center;
+    font-size: 25px;
+    padding: 0.5ex;
+    color: #153142;
+}
+
+#map {
+    height: max-content;
+}

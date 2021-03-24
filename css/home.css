@@ -1,0 +1,104 @@
+#accueil {
+    background-color: #f00340;
+}
+
+.aanep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #153142;
+}
+
+.cover {
+    font-size: 181px;
+    color: #153142;
+    padding: 0.5ex 1ex 0.5ex 1ex;
+    background-color: #f0ddd988;
+}
+
+.a1 {
+    margin: 30px;
+    width: 400px;
+    height: 500px;
+    background-color: #EBE8E4;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.titre_actu {
+    text-align: center;
+    background-color: #f00340;
+    margin: 0;
+    height: 80px;
+    padding: 20px;
+    color: white;
+}
+
+.actualite {
+    display: flex;
+    background-color: beige;
+}
+
+.content-home {
+    line-height: 1.6;
+    word-wrap: break-word;
+    margin-bottom: 7ex;
+}
+
+.mosaic {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card .image img {
+    width: 100%;
+    height: 365px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 1.5;
+    /* margin-bottom: 2rem; */
+    background: #fff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+    transition-property: color, background, box-shadow;
+}
+
+a,
+a code {
+    color: #153142;
+    margin: 10px;
+}
+
+.cover {
+    position: absolute;
+}
+
+.h-link {
+    background-color: #153142;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.text {
+    background-color: #F1E9E7;
+    height: 100%;
+    color: black;
+    padding: 1ex;
+    /* border-radius: 7px; */
+}

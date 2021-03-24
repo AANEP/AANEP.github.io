@@ -1,0 +1,81 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #153142;
+    color: white;
+    text-align: center;
+}
+
+#cont {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info {
+    flex-grow: 1;
+    background-color: #f00340;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3ex;
+    padding-bottom: 5ex;
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+.info .haut {
+    text-align: right;
+    width: 100%;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+}
+
+.info a:hover {
+    color: #153142;
+}
+
+.social {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-social {
+    padding: 2ex;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    width: 6ex;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 0.5ex;
+}
+
+.fa-facebook {
+    background: #f00340;
+    color: #ffffff;
+}
+
+.fa-instagram {
+    background: #f00340;
+    color: #ffffff;
+}
